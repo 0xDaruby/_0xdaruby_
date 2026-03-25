@@ -1,0 +1,13 @@
+personal portfolio website - September, 29th, 2025.
+
+
+edit asf:
+data.js
+
+
+
+
+npm run dev : to start
+ctrl + c : to end
+
+DEPLOY

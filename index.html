@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/hero.jpeg" sizes="24x24"/>
+    <meta
+      name="description"
+      content="I enjoy building things that live on the internet, whether that be websites, applications, or anything in between.curity systems to safeguard digital assets and data."
+    />
+    <meta
+      name="keywords"
+      content="David Samuel, Cybersecurity Engineer, Portfolio, 0xria"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://0xria.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="David || 0xria -  Cybersecurity Engineer"
+    />
+    <meta
+      property="og:description"
+      content="I enjoy building things that live on the internet, whether that be websites, applications, or anything in between.curity systems to safeguard digital assets and data."
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dkoe20rzl/image/upload/v1692130992/cover.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="0xria.vercel.app" />
+    <meta property="twitter:url" content="https://0xria.vercel.app" />
+    <meta
+      name="twitter:title"
+      content="David || 0xria- Cybersecurity Engineer"
+    />
+    <meta
+      name="twitter:description"
+      content="I enjoy building things that live on the internet, whether that be websites, applications, or anything in between.curity systems to safeguard digital assets and data."
+    />
+    <meta
+      name="twitter:image"
+      content="https://res.cloudinary.com/dkoe20rzl/image/upload/v1692130992/cover.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="lg:bg-blue-950s md:bg-red-300s bg-yellow-400s">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+
+      // Whenever the user explicitly chooses light mode
+      localStorage.theme = "light";
+
+      // Whenever the user explicitly chooses dark mode
+      localStorage.theme = "dark";
+
+      // Whenever the user explicitly chooses to respect the OS preference
+      localStorage.removeItem("theme");
+    </script>
+  </body>
+</html>
