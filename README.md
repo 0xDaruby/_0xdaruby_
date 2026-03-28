@@ -39,7 +39,7 @@ Feel free to customize this portfolio to showcase your own projects and skills. 
 If you have any questions or would like to get in touch, you can reach me at:
 
 - Email: iquaibomdavid@gmail.com
-- GitHub: [David](https://github.com/0xria)
+- GitHub: [David](https://github.com/0xdaruby)
 - Portfolio: [preview]: https://0xdaruby.vercel.app/
 
 ## Todos
