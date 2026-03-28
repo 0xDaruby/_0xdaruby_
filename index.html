@@ -1,28 +1,58 @@
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/images/hero.jpeg" sizes="24x24"/>
-  <title>David Iquaibom || 0xdaruby — Web Developer</title>
-  <meta name="description" content="David Iquaibom — Web Developer building responsive, scalable, and secure web applications." />
-  <meta name="keywords" content="David Iquaibom, Web Developer, Portfolio, 0xdaruby" />
-  <meta name="author" content="David Iquaibom" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/hero.jpeg" sizes="24x24"/>
+    <title>David Iquaibom || 0xdaruby — Web Developer</title>
+    <meta name="description" content="David Iquaibom — Web Developer building responsive, scalable, and secure web applications." />
+    <meta name="keywords" content="David Iquaibom, Web Developer, Portfolio, 0xdaruby" />
+    <meta name="author" content="David Iquaibom" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Open Graph (WhatsApp, Facebook, LinkedIn, Discord) -->
-  <meta property="og:url" content="https://0xdaruby.vercel.app" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="David || Web Developer " />
-  <meta property="og:description" content="David || Web Developer building responsive, scalable, and secure web applications." />
-  <meta property="og:image" content="https://0xdaruby.vercel.app/images/hero.jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:site_name" content="David Iquaibom" />
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn, Discord) -->
+    <meta property="og:url" content="https://0xdaruby.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="David || Web Developer" />
+    <meta property="og:description" content="Building responsive, scalable, and secure web applications." />
+    <meta property="og:image" content="https://0xdaruby.vercel.app/images/hero.jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="David Iquaibom" />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content="0xdaruby.vercel.app" />
-  <meta property="twitter:url" content="https://0xdaruby.vercel.app" />
-  <meta name="twitter:title" content="David || Web Developer " />
-  <meta name="twitter:description" content="David || Web Developer building responsive, scalable, and secure web applications." />
-  <meta name="twitter:image" content="https://0xdaruby.vercel.app/images/hero.jpeg" />
-  <meta name="twitter:creator" content="@0xdaruby" />
-</head>
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="0xdaruby.vercel.app" />
+    <meta property="twitter:url" content="https://0xdaruby.vercel.app" />
+    <meta name="twitter:title" content="David || Web Developer" />
+    <meta name="twitter:description" content="Building responsive, scalable, and secure web applications." />
+    <meta name="twitter:image" content="https://0xdaruby.vercel.app/images/hero.jpeg" />
+    <meta name="twitter:creator" content="@0xdaruby" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+
+      localStorage.theme = "light";
+      localStorage.theme = "dark";
+      localStorage.removeItem("theme");
+    </script>
+  </body>
+</html>
