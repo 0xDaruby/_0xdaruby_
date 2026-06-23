@@ -50,7 +50,7 @@ const Hero = () => {
           >
             {[
               { href: "https://twitter.com/0xdaruby", Icon: TwIcon },
-              { href: "https://www.instagram.com/daruby_official", Icon: IgIcon },
+              { href: "https://www.instagram.com/0xdaruby", Icon: IgIcon },
               { href: "", Icon: InIcon },
             ].map(({ href, Icon }, i) => (
               <motion.a
