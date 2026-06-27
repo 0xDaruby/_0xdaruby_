@@ -18,7 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   /* background-color: #0a1c20; */
-  background-color: #191970;
+  background-color: #0F0F12; /* match Tailwind `primaryBg` for seamless transition */
   /* background-color: black; */
   color: white;
   font-family: "Poppins", sans-serif;
