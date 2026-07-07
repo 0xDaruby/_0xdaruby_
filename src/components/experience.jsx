@@ -3,10 +3,10 @@ import resumeUrl from "../utils/Iquaibom David - Resume.pdf";
 
 const experiences = [
   {
-    role: "",
-    company: "",
-    period: "",
-    isCooking: false,
+    role: "Data Analyst",
+    company: "SkillBoost Limited",
+    period: "6 months, Intership",
+    isOngoing: true,
     desc: "",
   },
   {
@@ -63,7 +63,7 @@ const Experience = () => {
 
                   {exp.isOngoing && (
                     <span className="ml-2 text-[#FFFFFF99] italic text-[11px] animate-pulse font-normal">
-                      what im currently working on...
+                      what im currently working with...
                     </span>
                   )}
 

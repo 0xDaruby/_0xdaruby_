@@ -15,7 +15,7 @@ export const projects = [
     name: "Portfolio Website series",
     desc: "a set of portfolio websites built for personal brands and businesses ",
     lang: "Html · TailwindCSS · JavaScript",
-    link: "",
+    link: "https://github.com/0xDaruby/",
   },
   {
     name: "",
