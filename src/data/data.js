@@ -12,14 +12,14 @@ export const projects = [
     link: "https://github.com/0xDaruby/Email_Automation.git",
   },
   {
-    name: "",
-    desc: "still working on it check back later",
-    lang: "",
+    name: "Portfolio Website series",
+    desc: "a set of portfolio websites built for personal brands and businesses ",
+    lang: "Html · TailwindCSS · JavaScript",
     link: "",
   },
   {
     name: "",
-    desc: "",
+    desc: "still working on it check back later",
     lang: "",
     link: "",
   },
