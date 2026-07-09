@@ -10,8 +10,15 @@ const services = [
     desc: "Efficient Python scripts for task automation, data processing, backend logic, and problem-solving.",
   },
   {
-    title: "UI/UX & Web Design",
-    desc: "Clean, modern, user-friendly interfaces with strong focus on UX, visual hierarchy, and engaging layouts.",
+    title: (
+      <>
+        AI Assisted Coding
+        <span className="block text-[#c8a96e] text-[12px] lg:text-[14px]">
+          aka Vibe Coding
+        </span>
+      </>
+    ),
+    desc: "Well basically tech has evolved way beyond traditional coding, so i use coding agent to speed up my work flow. Ps. Claude 101 Certified 😉",
   },
   {
     title: "System Architecture",
