@@ -12,7 +12,13 @@ export const projects = [
     link: "https://github.com/0xDaruby/Email_Automation.git",
   },
   {
-    name: "Portfolio Website series",
+    name: "Priv-Con",
+    desc: "a local first document conversion app that processes Office documents, PDFs, and images entirely on the user's machine to guarantee privacy and confidentiality ",
+    lang: " Python · Next.js · React · LibreOffice",
+    link: "https://github.com/0xDaruby/Priv-Con.git", 
+  },
+  {
+   name: "Portfolio Website series",
     desc: "a set of portfolio websites built for personal brands and businesses ",
     lang: "Html · TailwindCSS · JavaScript",
     link: "https://github.com/0xDaruby/",
@@ -20,12 +26,6 @@ export const projects = [
   {
     name: "",
     desc: "still working on it check back later",
-    lang: "",
-    link: "",
-  },
-  {
-    name: "",
-    desc: "",
     lang: "",
     link: "",
   },

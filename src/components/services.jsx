@@ -21,8 +21,8 @@ const services = [
     desc: "Well basically tech has evolved way beyond traditional coding, so i use coding agent to speed up my work flow. Ps. Claude 101 Certified 😉",
   },
   {
-    title: "System Architecture",
-    desc: "Scalable system structures, application workflows, and backend architectures for maintainable software.",
+    title: "Data Analysis",
+    desc: "In-depth analysis of data sets to extract meaningful insights and support decision-making.",
   },
   {
     title: "Technical Documentation",
