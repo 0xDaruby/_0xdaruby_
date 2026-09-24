@@ -1,9 +1,9 @@
 export const projects = [
   {
-    name: "Seat Booking Software",
-    desc: "An application used for booking event seat with Paystack integration ",
-    lang: "Typescript",
-    link: "https://github.com/0xDaruby/seat-booking-system.git",
+    name: "CallScribe",
+    desc: "A telegram bot that records and transcribes telegram calls remotely, generating summaries using AI API",
+    lang: "Python",
+    link: "https://github.com/0xDaruby/CallScribe.git",
   },
   {
     name: "Email_Automation",
@@ -18,22 +18,22 @@ export const projects = [
     link: "https://github.com/0xDaruby/Priv-Con.git", 
   },
   {
-   name: "Portfolio Website series",
+    name: "Hotel Ops Software",
+    desc: "a software solution that aims to bridge the gap in communication between the hotel operations team and the management team",
+    lang: "TypeScript · PostgreSQL · JavaScript",
+    link: "https://github.com/0xDaruby/Hotel-Operations-Software.git",
+  },
+  {
+    name: "Seat Booking Software",
+    desc: "An application used for booking event seat with Paystack integration ",
+    lang: "Typescript",
+    link: "https://github.com/0xDaruby/seat-booking-system.git",
+  },
+  {
+    name: "Portfolio Website series",
     desc: "a set of portfolio websites built for personal brands and businesses ",
     lang: "Html · TailwindCSS · JavaScript",
     link: "https://github.com/0xDaruby/",
-  },
-  {
-    name: "",
-    desc: "still working on it check back later",
-    lang: "",
-    link: "",
-  },
-  {
-    name: "",
-    desc: "",
-    lang: "",
-    link: "",
   },
  
 ];
