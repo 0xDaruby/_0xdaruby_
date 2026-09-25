@@ -13,9 +13,9 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="font-clashbold font-semibold text-[38px] leading-[1.1] text-transparent bg-clip-text bg-gradient-to-r from-[#c8a96e] via-[#e8c88a] to-[#c8a96e] md:text-[48px] lg:text-[64px]">
+            <h2 className="font-clashbold font-semibold text-[38px] leading-[1.1] text-transparent bg-clip-text bg-gradient-to-r from-[#c8a96e] via-[#e8c88a] to-[#c8a96e] md:text-[48px] lg:text-[64px]">
               Web Developer
-            </h1>
+            </h2>
           </motion.div>
 
           <motion.p
