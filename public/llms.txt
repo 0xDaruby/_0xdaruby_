@@ -1,0 +1,37 @@
+# 0xdaruby
+
+> 0xdaruby is the personal brand and online identity of David Iquaibom, a developer and AI builder who explores AI tools, builds software with AI, and shares practical projects, experiments, and learnings.
+
+- Name: David Iquaibom
+- Public handle: 0xdaruby
+- Website: https://oxdaruby.tech/
+- GitHub: https://github.com/0xdaruby
+- X: https://twitter.com/0xdaruby
+- Instagram: https://www.instagram.com/0xdaruby
+
+## About
+
+David Iquaibom uses 0xdaruby as his public online identity. He builds software, explores AI tools, and shares practical projects, experiments, and learnings.
+
+- Homepage: https://oxdaruby.tech/
+
+## Projects
+
+- **CallScribe**: A telegram bot that records and transcribes telegram calls remotely, generating summaries using AI API.
+  - Technologies: Python
+  - Source: https://github.com/0xDaruby/CallScribe.git
+- **Email_Automation**: Auto-draft Gmail replies using AI; fully free, runs locally, zero SaaS dependencies.
+  - Technologies: Python, Gmail API, SQLite
+  - Source: https://github.com/0xDaruby/Email_Automation.git
+- **Priv-Con**: A local first document conversion app that processes Office documents, PDFs, and images entirely on the user's machine to guarantee privacy and confidentiality.
+  - Technologies: Python, Next.js, React, LibreOffice
+  - Source: https://github.com/0xDaruby/Priv-Con.git
+- **Hotel Ops Software**: A software solution that aims to bridge the gap in communication between the hotel operations team and the management team.
+  - Technologies: TypeScript, PostgreSQL, JavaScript
+  - Source: https://github.com/0xDaruby/Hotel-Operations-Software.git
+- **Seat Booking Software**: An application used for booking event seat with Paystack integration.
+  - Technologies: TypeScript
+  - Source: https://github.com/0xDaruby/seat-booking-system.git
+- **Portfolio Website series**: A set of portfolio websites built for personal brands and businesses.
+  - Technologies: HTML, Tailwind CSS, JavaScript
+  - GitHub: https://github.com/0xDaruby/

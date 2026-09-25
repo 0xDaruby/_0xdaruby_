@@ -8,14 +8,12 @@ import {
   Skills,
   SEO,
 } from "../components";
+import { SEOdata } from "../constants/seo";
 
 function Home() {
   return (
     <>
-      <SEO
-        title="David"
-        description="I enjoy building things that live on the internet, whether that be websites, applications, or anything in between."
-      />
+      <SEO title={SEOdata.homePage.title} noIndex={false} />
       <main>
         <Navbar />
         <Hero />
